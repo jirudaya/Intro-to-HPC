@@ -26,7 +26,7 @@ export OMP_PLACES=cores
 echo "job start"
 
 # Launch the parallel job
-srun --hint=nomultithread --distribution=block:block ./hello-THRD YOUR_NAME_HERE THREADED-${NODES}nodes-${CORES}cores-${THREADS}threads.${SLURM_JOBID}.out
+srun --hint=nomultithread --distribution=block:block ./hello-THRD YOUR_NAME_HERE > THREADED-${NODES}nodes-${CORES}cores-${THREADS}threads.${SLURM_JOBID}.out
 
 echo "job complete"
 
