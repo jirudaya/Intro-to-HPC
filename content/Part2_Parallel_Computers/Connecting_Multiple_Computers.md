@@ -230,7 +230,7 @@ D) it is basically the same processor you would find in a high-end PC or compute
 
 ```{solution}
 
-A) and C)
+B) and D)
 
 That’s right - today almost all processors have multiple CPU-cores.
 
